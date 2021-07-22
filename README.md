@@ -10,7 +10,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/async
 You should write code that reads like a series of synchronous statements.
 
 ## Make Breakfast
-`Pouring coffee
+Pouring coffee
 **coffee is ready**
 Warming the egg pan...
 cracking 2 eggs
@@ -34,7 +34,7 @@ Putting jam on the toast
 **toast is ready**
 Pouring orange juice
 **oj is ready**
-Breakfast is ready!`
+Breakfast is ready!
 
 
 ## Make Breakfast Async
