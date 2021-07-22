@@ -1,6 +1,10 @@
 # Async Demo
 
+## Tutorial
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+
+## Common async scenarios
+https://docs.microsoft.com/en-us/dotnet/csharp/async
 
 ## Objective
 You should write code that reads like a series of synchronous statements.
