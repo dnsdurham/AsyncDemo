@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeBreakfast", "MakeBreakfast\MakeBreakfast.csproj", "{6F6F6DDA-BB23-4D5F-AE69-D73E27A4A57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeBreakfastAsync", "MakeBreakfastAsync\MakeBreakfastAsync.csproj", "{9E974D8C-A8BC-4ABC-A930-41880EA1069B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeBreakfastConcurrent", "MakeBreakfastConcurrent\MakeBreakfastConcurrent.csproj", "{6A94B79E-8B29-43D4-AA92-D330C4512C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeBreakfastComposition", "MakeBreakfastComposition\MakeBreakfastComposition.csproj", "{EB488982-1A36-4FC3-B317-DD003DEFBB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeBreakfastAsyncException", "MakeBreakfastAsyncException\MakeBreakfastAsyncException.csproj", "{16CEFAAE-03B4-49A0-98C6-FB20D9DA0BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeBreakfastEfficientAwait", "MakeBreakfastEfficientAwait\MakeBreakfastEfficientAwait.csproj", "{7E9307E6-0B71-4FE3-97B3-0718498B0676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6F6DDA-BB23-4D5F-AE69-D73E27A4A57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6F6DDA-BB23-4D5F-AE69-D73E27A4A57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6F6DDA-BB23-4D5F-AE69-D73E27A4A57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6F6DDA-BB23-4D5F-AE69-D73E27A4A57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E974D8C-A8BC-4ABC-A930-41880EA1069B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E974D8C-A8BC-4ABC-A930-41880EA1069B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E974D8C-A8BC-4ABC-A930-41880EA1069B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E974D8C-A8BC-4ABC-A930-41880EA1069B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A94B79E-8B29-43D4-AA92-D330C4512C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A94B79E-8B29-43D4-AA92-D330C4512C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A94B79E-8B29-43D4-AA92-D330C4512C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A94B79E-8B29-43D4-AA92-D330C4512C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB488982-1A36-4FC3-B317-DD003DEFBB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB488982-1A36-4FC3-B317-DD003DEFBB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB488982-1A36-4FC3-B317-DD003DEFBB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB488982-1A36-4FC3-B317-DD003DEFBB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CEFAAE-03B4-49A0-98C6-FB20D9DA0BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CEFAAE-03B4-49A0-98C6-FB20D9DA0BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CEFAAE-03B4-49A0-98C6-FB20D9DA0BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CEFAAE-03B4-49A0-98C6-FB20D9DA0BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9307E6-0B71-4FE3-97B3-0718498B0676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9307E6-0B71-4FE3-97B3-0718498B0676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9307E6-0B71-4FE3-97B3-0718498B0676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9307E6-0B71-4FE3-97B3-0718498B0676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
