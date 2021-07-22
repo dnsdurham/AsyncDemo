@@ -10,6 +10,34 @@ https://docs.microsoft.com/en-us/dotnet/csharp/async
 You should write code that reads like a series of synchronous statements.
 
 ## Make Breakfast
+Pouring coffee. 
+**coffee is ready**. 
+Warming the egg pan...  
+cracking 2 eggs. 
+cooking the eggs ...  
+Put eggs on plate. 
+**eggs are ready**. 
+putting 3 slices of bacon in the pan. 
+cooking first side of bacon...  
+flipping a slice of bacon. 
+flipping a slice of bacon. 
+flipping a slice of bacon. 
+cooking the second side of bacon...  
+Put bacon on plate. 
+**bacon is ready**. 
+Putting a slice of bread in the toaster. 
+Putting a slice of bread in the toaster. 
+Start toasting...  
+Remove toast from toaster. 
+Putting butter on the toast. 
+Putting jam on the toast. 
+**toast is ready**. 
+Pouring orange juice. 
+**oj is ready**. 
+Breakfast is ready!  
+
+
+## Make Breakfast Async
 Pouring coffee
 **coffee is ready**
 Warming the egg pan...
@@ -36,36 +64,8 @@ Pouring orange juice
 **oj is ready**
 Breakfast is ready!
 
-
-## Make Breakfast Async
-`Pouring coffee
-**coffee is ready**
-Warming the egg pan...
-cracking 2 eggs
-cooking the eggs ...
-Put eggs on plate
-**eggs are ready**
-putting 3 slices of bacon in the pan
-cooking first side of bacon...
-flipping a slice of bacon
-flipping a slice of bacon
-flipping a slice of bacon
-cooking the second side of bacon...
-Put bacon on plate
-**bacon is ready**
-Putting a slice of bread in the toaster
-Putting a slice of bread in the toaster
-Start toasting...
-Remove toast from toaster
-Putting butter on the toast
-Putting jam on the toast
-**toast is ready**
-Pouring orange juice
-**oj is ready**
-Breakfast is ready!`
-
 ## Make Breakfast Concurrent
-`Pouring coffee
+Pouring coffee
 **coffee is ready**
 Warming the egg pan...
 putting 3 slices of bacon in the pan
@@ -89,10 +89,10 @@ Put bacon on plate
 Put eggs on plate
 **eggs are ready**
 **bacon is ready**
-Breakfast is ready!`
+Breakfast is ready!
 
 ## Make Breakfast Composition
-`Pouring coffee
+Pouring coffee
 **coffee is ready**
 Warming the egg pan...
 putting 3 slices of bacon in the pan
@@ -116,10 +116,10 @@ Put bacon on plate
 **toast is ready**
 Pouring orange juice
 **oj is ready**
-Breakfast is ready!`
+Breakfast is ready!
 
 ## Make Breakfast Exception
-`Pouring coffee
+Pouring coffee
 coffee is ready
 Warming the egg pan...
 putting 3 slices of bacon in the pan
@@ -139,10 +139,10 @@ Put eggs on plate
 eggs are ready
 bacon is ready
 Unhandled exception. System.InvalidOperationException: The toaster is on fire
-   at MakeBreakfastAsyncException.Program.ToastBreadAsync(Int32 slices) in /Users/dougdurham/Documents/GitHub/dnsdurham/AsyncDemo/AsyncDemo/MakeBreakfastAsyncException/Program.cs:line 63`
+   at MakeBreakfastAsyncException.Program.ToastBreadAsync(Int32 slices) in /Users/dougdurham/Documents/GitHub/dnsdurham/AsyncDemo/AsyncDemo/MakeBreakfastAsyncException/Program.cs:line 63
 
 ## Make Breakfast Efficient Await
-`Pouring coffee
+Pouring coffee
 **coffee is ready**
 Warming the egg pan...
 putting 3 slices of bacon in the pan
@@ -166,5 +166,5 @@ Put bacon on plate
 **eggs are ready**
 Pouring orange juice
 **oj is ready**
-Breakfast is ready!`
+Breakfast is ready!
 
